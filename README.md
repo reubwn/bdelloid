@@ -21,3 +21,12 @@ Rmag_1.raw.fq.gz \
 Rmag_2.raw.fq.gz
 ```
 Minimum quality score set to 25 (equivalent to about 3 errors per kb).
+
+#### Data counts
+Library | Reads pre | Reads post | Bases pre | Bases post | % retained
+---|---|---|---|---|---
+Rmag | 324,285,548 | 305,771,780 | 48,711,622,622 | 45,639,584,412 | 94.3%
+Rmac |  |  |  |  |
+Rsoc |  |  |  |  |
+Rsor |  |  |  |  |
+Rtar |  |  |  |  |
