@@ -1,12 +1,12 @@
 # bdevolver
 Scripts for simulating asexual evolution under the forces of mutation, drift, gene conversion + HGT
 
-## bdevolver.simulation.R
+##1. bdevolver.simulation.R
 Main simulation script. Outputs sequences in fasta format.
 
-Type """bdevolver.simulation.R -h""" list of options:
+Type `bdevolver.simulation.R -h` list of options:
 
-```
+```R
 Usage: /home/rnowell/scripts/bdevolver.simulation.R [options]
 
 
@@ -83,3 +83,12 @@ Options:
 	-h, --help
 		Show this help message and exit
 ```
+
+##2. bdevolver.triplets.R
+Script for the detection of haplotype trios in a sequence alignment. Type `bdevolver.triplets.R -h` for help.
+
+##3. bdevolver.plot.R
+Script that plots some time-series population genetics from the output of bdevolver.simulation.R. Type `-h` for help.
+
+##4. bdevolver.stats.R
+Outputs some stats in a table format.
